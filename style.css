@@ -4,7 +4,13 @@ body {
     background-color: #454545;
 }
 
+small {
+    color: wheat;
+    text-align: center;
+}
+
 body h1 {
+    color: wheat;
     text-align: center;
     font-size: 30px;
     font-weight: 700;
@@ -41,6 +47,40 @@ section input {
     height: 330px;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
+}
+
+.div-c {
+    background-color: rgb(128, 47, 6);
+    padding: 15px 10px;
+    margin: 3px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: wheat;
+    font-size: 25px;
+    font-weight: 700;
+    border-radius: 5px;
+}
+
+.div-c:hover {
+    background-color: rgb(91, 33, 4);
+}
+
+.div-a {
+    background-color: rgb(57, 57, 139);
+    padding: 15px 10px;
+    margin: 3px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: wheat;
+    font-size: 25px;
+    font-weight: 700;
+    border-radius: 5px;
+}
+
+.div-a:hover {
+    background-color: rgb(36, 36, 115);
 }
 
 .div {
